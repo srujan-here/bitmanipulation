@@ -10,7 +10,7 @@ a=a^b;
 b=b^a;
 a=a^b;
 }
-int NosetBit(int a){
+int No_of_setBit(int a){
     int b=0;
 while(a){
      b+=a&1;
@@ -40,7 +40,7 @@ int main(){
    //cout<<a<<" "<<b<<endl;
 // int a;
 // cin>>a;
-// cout<<NosetBit(a)<<endl;
+// cout<<No_of_setBit(a)<<endl;
 // cout<<getBit(a,b)<<endl;
 //  cout<<setBit(a,b)<<endl;
 //    cout<<clearbit(a,b)<<endl;
